@@ -1,0 +1,27 @@
+{
+  "name": "urlshot",
+  "version": "1.0.0",
+  "description": "Commandline URL Screengrabber using PhantomJS",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmichael225/urlshot.git"
+  },
+  "keywords": [
+    "phantomjs"
+  ],
+  "author": "Michael Goodyear <gmichael225@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gmichael225/urlshot/issues"
+  },
+  "homepage": "https://github.com/gmichael225/urlshot#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "md5": "^2.0.0",
+    "phantomjs": "^1.9.19"
+  }
+}
