@@ -1,6 +1,6 @@
 {
   "name": "urlshot",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Commandline URL Screengrabber using PhantomJS",
   "main": "cli.js",
   "scripts": {
@@ -23,5 +23,9 @@
     "commander": "^2.9.0",
     "md5": "^2.0.0",
     "phantomjs": "^1.9.19"
-  }
+  },
+  "bin": {
+    "urlshot": "cli.js"
+  },
+  "preferGlobal": true
 }

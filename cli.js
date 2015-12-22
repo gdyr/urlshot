@@ -13,7 +13,7 @@ var binPath = phantomjs.path
 var phantom_args = [ path.join(__dirname, 'capture.js') ];
 
 program
-  .version('1.0.0')
+  .version('1.0.2')
   .usage('[options] url [filename]')
   .option('-F --format <format>', 'Screenshot file format (png, jpg, gif, pdf)')
   .option('-A --autohash', 'Automatically name files based on URL hash')
